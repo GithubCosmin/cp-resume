@@ -62,6 +62,10 @@
     \href{https://linkedin.com/in/#1}{\textcolor{black}
     {\faLinkedinIn}\hspace{0.5em}#1}
 }
+\newcommand{\soundcloud}[1]{
+    \href{https://soundcloud.com/#1}{\textcolor{black}
+    {\faSoundcloud}\hspace{0.5em}#1}
+}
 \newcommand{\email}[1]{
     \href{mailto:#1}{\textcolor{black}
     {\faEnvelope[regular]}\hspace{0.5em}#1}
@@ -102,7 +106,7 @@
     % \addcontentsline{toc}{chapter}{\@name}
     \begin{tabularx}{\textwidth}{Xr}{
         \begin{tabular}[c]{l}
-            \fontsize{35}{45}\selectfont{\color{navyblue}{\textbf{\@name}}}
+            \fontsize{32}{42}\selectfont{\color{navyblue}{\textbf{\@name}}}
             \ifx\empty\@title\empty\else
                 \\ \textit{\small\@title}
             \fi
